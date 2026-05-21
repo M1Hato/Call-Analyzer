@@ -33,7 +33,7 @@ def append_call_to_sheet(file_name: str, analysis_data):
         analysis_data.followed_top100_instructions,  # O: Чи дотримувався інструкцій з топ 100 (1/0)
         analysis_data.failed_recommendations,  # P: Яких рекомендацій менеджер не дотримувався
         analysis_data.call_result,  # Q: Результат
-        calculated_score,  # R: Оцінка (тепер тут сума одиничок!)
+        calculated_score,  # R: Оцінка
         "",  # S: Запчастини
         analysis_data.ai_comment,  # T: Коментар
         1 if analysis_data.is_ok else 0  # U: Підрахунок балів (загальний статус успішності 1/0)
