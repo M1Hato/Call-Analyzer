@@ -1,0 +1,7 @@
+google-genai==2.5.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.128.0
+gspread==6.1.2
+pydantic>=2.9.0
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
