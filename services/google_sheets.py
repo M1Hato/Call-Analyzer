@@ -27,7 +27,7 @@ def append_call_to_sheet(file_name: str, analysis_data):
         analysis_data.car_mileage_asked,  # I: Дізнався пробіг
         analysis_data.diagnostic_offered,  # J: Пропозиція діагностики
         analysis_data.previous_works_asked,  # K: Які роботи робилися раніше
-        analysis_data.booking_date,  # L: Запис на сервіс, Дата (заповниться, якщо є запис)
+        analysis_data.booking_date,  # L: Запис на сервіс, Дата
         analysis_data.goodbye_done,  # M: Завершення розмови
         analysis_data.selected_work,  # N: Яка робота з топ 100
         analysis_data.followed_top100_instructions,  # O: Чи дотримувався інструкцій з топ 100 (1/0)
